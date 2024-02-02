@@ -1,0 +1,47 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    background-color:azure;
+}
+Header{
+    background-color:rgb(118, 165, 171) ;
+    text-align: center;
+    padding: 25px;
+
+}
+.navbar{
+    background-color: rgb(67, 67, 71);
+    height: 40px;
+
+
+}
+ASIDE{
+    width: 40%;
+    float: left;
+    padding: 10px;
+}
+
+ARTICLE{
+    width: 60%;
+    float: left;
+    padding: 10px;
+}
+@media screen and (max-width: 600px){
+    ASIDE,SECTION,ARTICLE{
+        width: 100%;
+    }
+}
+Footer{
+    display: block;
+    clear: both;
+    background-color:rgb(118, 165, 171) ;
+    text-align: center;
+    padding: 20px;
+
+}
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-size: medium;
+}
